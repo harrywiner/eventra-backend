@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "title": "Natalie Williams' Soul Family",
+    "description": "Soul at its best: Natalie Williams hosts the monthly Soul Family with her regular singers and special guests.",
+    "date": "Sun 19 May - Sun 21 Jul 2024",
+    "stage": "Main Show",
+    "image_url": "https:\\/\\/cdn.ronniescotts.co.uk\\/uploads\\/_listing_image\\/269415\\/Soul-Family-24.webp?v=1696604353"
+  },
+  {
+    "id": 2,
+    "title": "Sunday Live Music Sessions: Brass Volcanoes New Orleans Grooves",
+    "description": "London's most joyful and spirited New Orleans style brass jazz band.",
+    "date": "Sun 19 May 2024",
+    "stage": "Upstairs @ Ronnie's",
+    "image_url": "https:\\/\\/cdn.ronniescotts.co.uk\\/uploads\\/_listing_image\\/572386\\/brass-volcanoes-24_2024-03-07-111546_ediq.webp?v=1709810150"
+  },
+  {
+    "id": 3,
+    "title": "Bill Evans & the Vansband All Stars",
+    "description": "Inventive, contemporary, and masterful. These are some of the words that have been used to describe the musicians in this \u00e2\u20ac\u0153one of a kind\u00e2\u20ac\u0153 group assembled by renaissance saxophonist, Bill Evans.",
+    "date": "Mon 20 - Tue 21 May 2024",
+    "stage": "Main Show",
+    "image_url": "https:\\/\\/cdn.ronniescotts.co.uk\\/uploads\\/_listing_image\\/508818\\/Bill-Evans-VanBand24.webp?v=1707501607"
+  },
+  {
+    "id": 4,
+    "title": "Voodoo Lounge",
+    "description": "Bluesey New Orleans infused gumbo to classic standards with Tim Penn and Chris Proctor.",
+    "date": "Mon 20 May - Mon 17 Jun 2024",
+    "stage": "Upstairs @ Ronnie's",
+    "image_url": "https:\\/\\/cdn.ronniescotts.co.uk\\/uploads\\/_listing_image\\/4797\\/RS_VoodooLounge_02_2023-07-03-101306_dvmf.webp?v=1689757216"
+  },
+  {
+    "id": 5,
+    "title": "Ruby Sings",
+    "description": "Ruby Sings is a weekly night Upstairs@ronnie\u00e2\u20ac\u2122s featuring entirely new music by unsigned musicians and bands.",
+    "date": "Tue 21 May - Tue 23 Jul 2024",
+    "stage": "Upstairs @ Ronnie's",
+    "image_url": "https:\\/\\/cdn.ronniescotts.co.uk\\/uploads\\/_listing_image\\/4108\\/Ruby-Sings-N23.webp?v=1689757199"
+  },
+  {
+    "id": 6,
+    "title": "Late Late Electronic hosted by Intervention",
+    "description": "With their poetic lyrics, uplifting rhythms and harmonious synth-infused soundscapes, Intervention invite the audience to experience their unique world.",
+    "date": "Tue 21 May 2024",
+    "stage": "Late Late Show",
+    "image_url": "https:\\/\\/cdn.ronniescotts.co.uk\\/uploads\\/_listing_image\\/692778\\/Intervention2-w-logo.webp?v=1715852298"
+  },
+  {
+    "id": 7,
+    "title": "Ed Richardson Big Band featuring special guest vocalist Kurt Elling",
+    "description": "Popular big band leader Ed Richardson is back with two time Grammy Award winning vocalist Kurt Elling.",
+    "date": "Wed 22 May 2024",
+    "stage": "Main Show",
+    "image_url": "https:\\/\\/cdn.ronniescotts.co.uk\\/uploads\\/_listing_image\\/482695\\/Ed-RichardsonKurt24.webp?v=1706292038"
+  },
+  {
+    "id": 8,
+    "title": "Braziliance",
+    "description": "Sultry Brazilian vocalist Luna Cohen teams up with Brazilian-American guitarist Rapha Grumser.",
+    "date": "Wed 22 May - Wed 10 Jul 2024",
+    "stage": "Upstairs @ Ronnie's",
+    "image_url": "https:\\/\\/cdn.ronniescotts.co.uk\\/uploads\\/_listing_image\\/232037\\/Braziliance_2023-09-19-161529_gzql.webp?v=1695140276"
+  },
+  {
+    "id": 9,
+    "title": "Ronnie Scott's Jazz Jam",
+    "description": "Ebullient trumpeter Andy Davies hosts this popular high-level session with guest Ross Stanley Quartet.",
+    "date": "Wed 22 May - Wed 10 Jul 2024",
+    "stage": "Upstairs @ Ronnie's",
+    "image_url": "https:\\/\\/cdn.ronniescotts.co.uk\\/uploads\\/_listing_image\\/4799\\/RS_JazzJam_01.webp?v=1689757348"
+  },
+  {
+    "id": 10,
+    "title": "Late Late Show hosted by Alex Western-King",
+    "description": "Alex Western-King is an award-winning musician who is generally considered to be one of the most talented saxophonists of his generation.",
+    "date": "Wed 22 May - Wed 24 Jul 2024",
+    "stage": "Late Late Show",
+    "image_url": "https:\\/\\/cdn.ronniescotts.co.uk\\/uploads\\/_listing_image\\/4537\\/Alex-Western-King-N23.webp?v=1689757417"
+  }
+]
