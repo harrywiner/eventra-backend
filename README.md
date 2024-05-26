@@ -1,6 +1,6 @@
 # Eventra Recommendations Backend
 
-A project to serve event objects and recieve user preferences
+A project to serve event objects and recieve user preferences  
 
 ## Usage
 
