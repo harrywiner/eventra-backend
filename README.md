@@ -24,3 +24,8 @@ Initialising DB
 ```bash
 python3 -m app.init_db
 ```
+
+## .env
+```bash
+DB_URL=postgresql://user:@localhost/eventra
+```
