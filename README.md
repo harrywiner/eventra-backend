@@ -19,3 +19,8 @@ Locally
 ```bash
 uvicorn app.main:app --reload
 ```
+
+Initialising DB
+```bash
+python3 -m app.init_db
+```
