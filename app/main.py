@@ -1,4 +1,5 @@
 from fastapi import FastAPI, Query, Depends
+from fastapi.middleware.cors import CORSMiddleware
 
 from sqlalchemy.orm import Session
 
@@ -6,6 +7,19 @@ from .database import get_db
 from .crud import get_events
 
 app = FastAPI()
+
+origins = [
+    "http://localhost:3000",
+    "http://localhost:8000",
+]
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,  # List of allowed origins
+    allow_credentials=True,  # Whether to allow credentials (cookies, authorization headers, etc.)
+    allow_methods=["*"],  # List of allowed HTTP methods
+    allow_headers=["*"],  # List of allowed headers
+)
 
 @app.get("/")
 def read_root():
