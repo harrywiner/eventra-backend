@@ -15,3 +15,16 @@ class EventCreate(EventBase):
 class Event(EventBase):
     class ConfigDict:
         from_attributes = True
+
+class PreferenceBase(BaseModel):
+    eventId: int
+    liked: bool
+
+class PreferenceCreate(PreferenceBase):
+    pass
+
+class Preference(PreferenceBase):
+    id: int
+
+    class Config:
+        from_attributes = True
