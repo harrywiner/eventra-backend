@@ -7,6 +7,7 @@ class Event(Base):
     id = Column(Integer, primary_key=True, index=True)
     title = Column(String)
     description = Column(String)
+    presenter = Column(String)
     date = Column(String)
     location = Column(String)
     image_url = Column(String)

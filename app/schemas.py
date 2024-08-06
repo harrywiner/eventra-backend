@@ -5,6 +5,7 @@ class EventBase(BaseModel):
     id: int
     title: str
     description: str
+    presenter: str
     date: str
     location: str
     image_url: str
