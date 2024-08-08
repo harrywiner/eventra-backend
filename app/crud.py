@@ -26,3 +26,32 @@ def create_preference(db: Session, preferences: list):
         db.refresh(db_preference)
         created_preferences.append(preference)
     return created_preferences
+
+def get_labelled_events(db: Session):
+    results = db.query(
+    models.Event.id.label('event_id'),
+    models.Event.title,
+    models.Event.description,
+    models.Event.presenter,
+    models.Event.date,
+    models.Event.location,
+    models.Event.image_url,
+    models.Preference.id.label('preference_id'),
+    models.Preference.liked).join(models.Preference, models.Event.id == models.Preference.eventId).all()  
+
+    events_with_preferences = [
+            {
+                "event_id": row.event_id,
+                "title": row.title,
+                "description": row.description,
+                "presenter": row.presenter,
+                "date": row.date,
+                "location": row.location,
+                "image_url": row.image_url,
+                "preference_id": row.preference_id,
+                "liked": row.liked
+            }
+            for row in results
+        ]
+
+    return events_with_preferences

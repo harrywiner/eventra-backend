@@ -4,7 +4,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from sqlalchemy.orm import Session
 
 from .database import get_db 
-from .crud import get_events, get_preferences, create_preference
+from .crud import get_events, get_preferences, create_preference, get_labelled_events
 from . import schemas
 
 app = FastAPI()
@@ -38,6 +38,12 @@ def read_preferences(limit: int = Query(default=10, ge=1, le=100), offset: int =
 def create_preferences(preferences: list[schemas.PreferenceCreate], db: Session = Depends(get_db)):
     created_preferences = create_preference(db=db, preferences=preferences)
     return created_preferences
+
+@app.get("/data/")
+def get_labelled_data(db: Session = Depends(get_db)):
+    labelled_events = get_labelled_events(db)
+    print(labelled_events)
+    return labelled_events
 
 if __name__ == "__main__":
     import uvicorn
